@@ -10,7 +10,7 @@ from sklearn.tree import DecisionTreeRegressor
 from sklearn.ensemble import RandomForestRegressor
 
 #Gathering the dataset
-df = pd.read_csv('energy_consumption_data.csv')
+df = pd.read_csv('Energy_Consumption_Model\energy_consumption_data.csv')
 
 #Selecting target and features
 x = df.drop('Energy_Consumption', axis=1)
